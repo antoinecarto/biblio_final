@@ -34,7 +34,7 @@ public class TestDeBase {
 		
 	
 
-		String[] choix = {"Consulter un exemplaire", "Consulter un utilisateur", "Emprunter un livre", "Rendre un livre", "Disponibilité d'un exemplaire", "Archives", "Archives nominatives", "Emprunts en cours", "Retards"};
+		String[] choix = {"Consulter un exemplaire", "Consulter un utilisateur", "Emprunter un livre", "Rendre un livre", "Disponibilité d'un exemplaire", "Archives", "Archives nominatives", "Emprunts en cours"};
 		int option = JOptionPane.showOptionDialog(null, "Faites votre choix", "Bibliothèque", 0, JOptionPane.QUESTION_MESSAGE, null, choix, "Consulter un exemplaire");
 		
 		
